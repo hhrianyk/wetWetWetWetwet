@@ -1,0 +1,70 @@
+// components
+@use './components/buttons' as*;
+@use './components/carousel-button' as*;
+@use './components/chief-card' as*;
+@use './components/format-card' as*;
+@use './components/links' as*;
+@use './components/form-terms' as*;
+@use './components/input' as*;
+@use './components/pagination' as*;
+
+// layouts
+@use './layouts/advantages' as*;
+@use './layouts/chief' as*;
+@use './layouts/contact' as*;
+@use './layouts/container' as*;
+@use './layouts/footer' as*;
+@use './layouts/formats' as*;
+@use './layouts/header' as*;
+@use './layouts/hero' as*;
+@use './layouts/modal' as*;
+@use './layouts/section' as*;
+@use './layouts/traditions' as*;
+@use './layouts/mobile-menu' as*;
+
+// utils
+@use './utils/fonts' as*;
+@use './utils/mixin' as*;
+@use './utils/utils' as*;
+@use './utils/texts' as*;
+@use './utils/variables' as*;
+
+@use './base' as*;
+
+/* имплементация с переходом лейбла плавно в верх
+
+.form-field{
+    position: relative;
+    margin-bottom: 32px;
+}
+
+.form-label{
+    position: absolute;
+    top: 16px;
+    left: 42px;
+    font-size: 16px;
+    line-height: 1.17;
+    color: var(--secondary-brown);
+    transition: transform 0.3s;
+}
+
+.form-field:focus-within .form-label{
+    transform: translate(-36px, -40px);
+}
+
+.form-input{
+    padding: 16px 42px;
+    width: 100%;
+    border: 1px solid var(--secondary-brown);
+    border-radius: 8px;
+    background-color: transparent;
+}
+
+.form-input:focus {
+    border: 1px solid var(--brand-light);
+    outline: none;
+}
+
+.form-input::placeholder {
+    color: var(--secondary-brown);
+} */
